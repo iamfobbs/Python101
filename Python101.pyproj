@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>07505f4f-df56-4c25-a19a-ce6322f60c8f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Udacity\break_time.py</StartupFile>
+    <StartupFile>Udacity\Open_file.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Udacity\break_time.py" />
+    <Compile Include="Udacity\loop_concepts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Udacity\Open_file.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
